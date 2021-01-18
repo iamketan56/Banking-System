@@ -1,2 +1,4 @@
 # Banking System
- Create a simple dynamic website which has the following specs
+ Create a simple dynamic website which has the following specs<br>
+ Flow: Home Page > About  > Services > Transaction => Make Transaction  || Add New Customer || View All Customer || Transaction History > My Account. 
+
