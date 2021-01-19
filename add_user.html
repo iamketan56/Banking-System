@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />  
+  <link rel="stylesheet" href="./main1.css">
+</head>
+<body>
+    <nav id="nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Global Bank</label>
+        <ul>
+            <li> <a  href="./index.html">Home</a> </li>
+            <li> <a href="./about.html">About</a> </li>
+            <li> <a class="active" href="./Transaction.html">Transaction</a> </li>
+            <li> <a href="./Serivces.html">Services</a> </li>
+            <li> <a href="./My_Account.php">My Account</a> </li>
+        </ul>
+    </nav>
+  <section id = "add_user">
+    <div class="container">
+        <form action="./Sucess.php" id="form" class="form" method="POST" >
+            <h2>Add User </h2>
+            <div class="form-control ">
+                <label for="username">Beneficiary Name</label>
+                <input type="text" id="username" name="bname" placeholder="Enter Username">
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control ">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+                <small>Error message</small>
+            </div>
+            <div class="form-control ">
+                <label for="Mobile">Mobile No.</label>
+                <input type="tel" id="Mobile" name="Mobile" placeholder="Enter Mobile No.(Linked with A/C)">
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="Account">Account No.</label>
+                <input type="tel" id="account"  name="Account" placeholder="Enter Account No.">
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="IFSC">IFSC Code</label>
+                <input type="text" id="ifsc"  name="ifsc" placeholder="Enter Branch IFSC Code">
+                <small>Error message</small>
+            </div>
+            <input type="submit"  Value ="add" class="button" name="submit">
+        </form>
+     
+    </div>
+    </section>
+<script src="main.js"></script>
+</body>
+</html>
